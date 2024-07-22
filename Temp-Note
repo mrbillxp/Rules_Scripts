@@ -1,0 +1,53 @@
+# Surge-Rules
+Try to collect rules from various sources. 
+
+Erdongchan Conf
+```https://raw.githubusercontent.com/erdongchanyo/Rules/main/Surge/Surge_EDC-Lzay.conf```
+
+# Sub-Store Modules
+```https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/script-hub.surge.sgmodule```
+
+# GitHub 
+```https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Github.list```
+
+# Rename Node
+```https://raw.githubusercontent.com/Keywos/rule/main/rename.js```
+
+# Microsoft
+```https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list```
+
+# Advanced geek
+```https://github.com/NobyDa/Script```
+
+# Apple INC
+```
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,mzstatic.com // App Store & iTunes Images
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,apple.co
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,itunes.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com // Dictionary
+DOMAIN-SUFFIX,me.com
+PROCESS-NAME,storedownloadd // Mac App Store
+USER-AGENT,com.apple.appstored* // iOS App Store
+```
+
+# Coze, Cici 豆包海外版
+限: 日韩新
+```
+DOMAIN-SUFFIX,coze.com
+DOMAIN-SUFFIX,ciciai.com
+DOMAIN-SUFFIX,byteoversea.com
+# > 下面这俩不确定
+DOMAIN-SUFFIX,ttwstatic.com
+DOMAIN-SUFFIX,byteintlapi.com
+```
+
+# 粉笔去广告
+```
+https://gitlab.com/lodepuly/vpn_tool/-/raw/master/Tool/Loon/Plugin/FenBi_remove_ads.plugin
+```
